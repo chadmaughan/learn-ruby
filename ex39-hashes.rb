@@ -64,6 +64,9 @@ end
 if state.nil?
     puts "Sorry, no Texas (with .nil?)."
 end
+if not states['Texas']
+    puts "Sorry, no Texas (with not states['Texas'])."
+end
 
 # get a city with a default value
 city = cities['TX'] || 'Does Not Exist'
