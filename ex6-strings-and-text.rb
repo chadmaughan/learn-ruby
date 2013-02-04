@@ -33,6 +33,7 @@ puts "Hello #{name1}, where is #{name2}?"
 "1 + 2 = #{1 + 2}"
 "the meaning of life is #{42/1}"
 
+# multi-line string
 s = <<END
 on the one ton temple bell
 a moon-moth, folded into sleep,
